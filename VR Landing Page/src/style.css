@@ -203,3 +203,45 @@ button {
     width: auto;
     height: 50px;
 }
+
+/*========== Footer CSS ==========*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-vr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #7b7979;
+    width: 97%;
+    padding: 20px 40px 20px 40px;
+}
+
+.footer-info {
+    margin: 20px;
+    color: #424242;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.socials {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials-hr {
+    border-left: 2px solid #424242;
+    height: 20px;
+    padding-left: 20px;
+}
+
+.socials-icons {
+    margin-right: 20px;
+    color: #05a6c2;
+    font-size: 20px;
+}
